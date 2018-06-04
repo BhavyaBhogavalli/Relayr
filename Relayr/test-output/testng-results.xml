@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24954" started-at="2018-05-28T16:48:41Z" finished-at="2018-05-28T16:49:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24954" started-at="2018-05-28T16:48:41Z" finished-at="2018-05-28T16:49:06Z">
+      <class name="Testing.TC02_navigateHotel">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Testing.TC02_navigateHotel@4f6ee6e4]" name="initialize" is-config="true" duration-ms="6905" started-at="2018-05-28T22:18:41Z" finished-at="2018-05-28T22:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Testing.TC02_navigateHotel@4f6ee6e4]" name="basePageNavigation" duration-ms="17523" started-at="2018-05-28T22:18:47Z" finished-at="2018-05-28T22:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testing.TC02_navigateHotel@4f6ee6e4]" name="closeBrowser" is-config="true" duration-ms="509" started-at="2018-05-28T22:19:05Z" finished-at="2018-05-28T22:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testing.TC02_navigateHotel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

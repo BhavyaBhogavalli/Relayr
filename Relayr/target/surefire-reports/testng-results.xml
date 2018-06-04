@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51573" started-at="2018-05-28T16:51:13Z" finished-at="2018-05-28T16:52:04Z">
+    <groups>
+    </groups>
+    <test name="flightbooking" duration-ms="27219" started-at="2018-05-28T16:51:13Z" finished-at="2018-05-28T16:51:40Z">
+      <class name="Testing.TC01_Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Testing.TC01_Login@5c30a9b0]" name="initialize" is-config="true" duration-ms="6551" started-at="2018-05-28T22:21:13Z" finished-at="2018-05-28T22:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Testing.TC01_Login@5c30a9b0]" name="basePageNavigation" duration-ms="20415" started-at="2018-05-28T22:21:19Z" data-provider="getData" finished-at="2018-05-28T22:21:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password_1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testing.TC01_Login@5c30a9b0]" name="closeBrowser" is-config="true" duration-ms="237" started-at="2018-05-28T22:21:40Z" finished-at="2018-05-28T22:21:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testing.TC01_Login -->
+    </test> <!-- flightbooking -->
+    <test name="hotelbooking" duration-ms="24340" started-at="2018-05-28T16:51:40Z" finished-at="2018-05-28T16:52:04Z">
+      <class name="Testing.TC02_navigateHotel">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Testing.TC02_navigateHotel@619713e5]" name="initialize" is-config="true" duration-ms="6144" started-at="2018-05-28T22:21:40Z" finished-at="2018-05-28T22:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="hotelPageNavigation()[pri:0, instance:Testing.TC02_navigateHotel@619713e5]" name="hotelPageNavigation" duration-ms="17881" started-at="2018-05-28T22:21:46Z" finished-at="2018-05-28T22:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelPageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testing.TC02_navigateHotel@619713e5]" name="closeBrowser" is-config="true" duration-ms="314" started-at="2018-05-28T22:22:04Z" finished-at="2018-05-28T22:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testing.TC02_navigateHotel -->
+    </test> <!-- hotelbooking -->
+  </suite> <!-- Suite -->
+</testng-results>
