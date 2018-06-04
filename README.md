@@ -1,5 +1,5 @@
 # Relayr
-### Test Cases for [Makemytrip] (https://www.makemytrip.com/).
+### Test Cases for [Makemytrip](https://www.makemytrip.com/).
 
 ## Implementation steps:
 
